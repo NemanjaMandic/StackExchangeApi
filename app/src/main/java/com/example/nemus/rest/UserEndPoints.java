@@ -4,6 +4,10 @@ package com.example.nemus.rest;
 
 import com.example.nemus.model.UsersReceived;
 
+import retrofit2.Call;
+import retrofit2.http.GET;
+import retrofit2.http.Query;
+
 /**
  * Created by nemus on 25-Dec-16.
  */
