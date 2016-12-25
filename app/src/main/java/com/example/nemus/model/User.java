@@ -51,5 +51,5 @@ public class User {
     public void setBadges(HashMap<String, Integer> badges) {
         this.badges = badges;
     }
-    
+
 }
