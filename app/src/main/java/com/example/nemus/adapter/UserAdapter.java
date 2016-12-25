@@ -8,6 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.nemus.model.User;
+import com.example.nemus.stackexchangeapi.R;
 
 import java.util.List;
 
@@ -83,6 +84,17 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
 
         public UserViewHolder(View itemView) {
             super(itemView);
+
+            usersLayout = (LinearLayout) itemView.findViewById(R.id.usersLayout);
+            userName = (TextView) itemView.findViewById(R.id.userName);
+            userReputation = (TextView) itemView.findViewById(R.id.userReputation);
+            userLocation = (TextView) itemView.findViewById(R.id.userLocation);
+            goldenBadge = (TextView) itemView.findViewById(R.id.goldenBadge);
+            goldenValue = (TextView) itemView.findViewById(R.id.goldenValue);
+            silverBadge = (TextView) itemView.findViewById(R.id.silverBadge);
+            silverValue = (TextView) itemView.findViewById(R.id.silverValue);
+            bronzeBadge = (TextView) itemView.findViewById(R.id.bronzeBadge);
+            bronzeValue = (TextView) itemView.findViewById(R.id.bronzeValue);
         }
     }
 }
