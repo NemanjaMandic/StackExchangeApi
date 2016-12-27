@@ -1,5 +1,8 @@
 package com.example.nemus.rest;
 
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+
 /**
  * Created by nemus on 25-Dec-16.
  */

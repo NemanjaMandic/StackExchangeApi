@@ -1,5 +1,6 @@
 package com.example.nemus.adapter;
 
+import android.app.Application;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -25,7 +26,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
     private int rowLayout;
 
 
-    public UserAdapter(List<User> users, Context context, int rowLayout){
+    public UserAdapter(List<User> users, int rowLayout, Context context){
         this.setUsers(users);
         this.setContext(context);
         this.setRowLayout(rowLayout);
